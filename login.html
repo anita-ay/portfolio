@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pleasantvic</title>
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="navigation-bar">
+        <h1 class="heading">PLEASANTVIC</h1>
+        <div class="nav-box">
+          <a href="aboutme.html" class="link">About Me</a>
+          <a href="contact.html" class="link">Contact</a>
+          <a href="registration.html" class="link">Registration</a>
+          <a href="login.html" class="link">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="login">
+      <h3 class="form-heading">Log-in</h3>
+      <form action="login-form" class="form-class">
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <div class="form-input">
+            <input
+              placeholder="example@gmail.com"
+              type="text"
+              id="Email"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="passwword" class="form-label">Password</label>
+          <div class="form-input">
+            <input type="text" id="password" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-lg btn-block">
+            Log-in
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="legal">
+        &copy; 2021 by Ayooola Adedayo, All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>

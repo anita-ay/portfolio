@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Pleasantvic</title>
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="navigation-bar">
+        <h1 class="heading">PLEASANTVIC</h1>
+        <div class="nav-box">
+          <a href="aboutme.html" class="link">About Me</a>
+          <a href="contact.html" class="link">Contact</a>
+          <a href="registration.html" class="link">Registration</a>
+          <a href="login.html" class="link">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contact">
+      <h3 class="form-heading">Contact Me</h3>
+      <form action="contact-form" class="form-class">
+        <div class="form-group">
+          <label for="Name" class="form-label">Your Name</label>
+          <div class="form-input">
+            <input
+              placeholder="Ayoola Adedayo"
+              type="text"
+              id="Name"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="Email" class="form-label">Your Email</label>
+          <div class="form-input">
+            <input
+              placeholder="example@gmail.com"
+              type="text"
+              id="Email"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="Message" class="form-label">Your message</label>
+          <div class="form-input">
+            <textarea
+              id="Message"
+              name="Message"
+              class="form-control"
+              rows="6"
+              maxlength="3000"
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-lg btn-block">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="legal">
+        &copy; 2021 by Ayooola Adedayo, All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>
